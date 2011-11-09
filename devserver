@@ -1,0 +1,2 @@
+#!/bin/sh
+./devmanage.py runserver 0:8000

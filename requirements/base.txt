@@ -1,0 +1,7 @@
+# base.txt is a pip requirements file which describes the necessary
+# distributions required to run this project. If you need something that is
+# project specific not listed here use project.txt. You can, of course, update
+# versions of distributions here if needed.
+
+Django>=1.3
+
