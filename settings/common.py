@@ -107,15 +107,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.humanize",
-    
-    "pinax.templatetags",
-    
-    # external
-    "staticfiles",
-    "debug_toolbar",
-    
-    # Pinax
-    
+     
     # project
 ]
 
