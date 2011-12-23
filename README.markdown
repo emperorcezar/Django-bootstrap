@@ -6,24 +6,30 @@ Django-bootstrap is a empty base project to use with Django. It includes [twitte
 Installation
 ------------
 
-Create a virtual enviroment for your project. By default, the settings assume the virtualenv is the parent directory of the project.
+1. Create a virtual enviroment for your project. By default, the settings assume the virtualenv is the parent directory of the project.
 
 `virtualenv --no-site-packages my_project`
 
-Go into your virtualenv
+2. Go into your virtualenv
 
 `cd my_project`
 
-Now clone the repo with `git clone git://github.com/emperorcezar/Django-bootstrap.git my_project`.
+3. Now clone the repo with `git clone git://github.com/emperorcezar/Django-bootstrap.git my_project`.
 
 Your project should be in `my_project/my_project`
 
-In the virtualenv directory create you static directory
+4. In the virtualenv directory create you static directory
 
 `mkdir static`
 
-Go into the directory when you cloned Django-bootstrap and remove the remote
+5. Go into the directory when you cloned Django-bootstrap and remove the remote
 
 `git remote rm origin`
 
 Now you can add your own origin.
+
+6. Edit local_settings.py.example and add admins, site_id, secret_key and whatever else you want not included in your repo.
+
+7. Now edit settings/production.py to setup your production database and whatever else is unique to your production environment. Same for settings/development.py, but it's defaults should be suitable for most local development.
+
+8. 
