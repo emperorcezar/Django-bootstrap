@@ -1,0 +1,9 @@
+[submodule "libs/utils"]
+	path = libs/utils
+	url = git://github.com/emperorcezar/Django-utils.git
+[submodule "libs/bootstrap"]
+	path = libs/bootstrap
+	url = https://github.com/twitter/bootstrap.git
+[submodule "libs/django_compressor"]
+	path = libs/django_compressor
+	url = https://github.com/jezdez/django_compressor.git
