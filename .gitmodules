@@ -1,6 +1,0 @@
-[submodule "django_compressor"]
-	path = django_compressor
-	url = git://github.com/jezdez/django_compressor.git
-[submodule "bootstrap"]
-	path = bootstrap
-	url = git://github.com/twitter/bootstrap.git

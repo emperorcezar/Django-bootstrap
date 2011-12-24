@@ -14,6 +14,7 @@ SITE_ROOT = os.path.dirname( PROJECT_ROOT )
 
 sys.path.append(SITE_ROOT)
 sys.path.append(PROJECT_ROOT + '/apps')
+sys.path.append(PROJECT_ROOT + '/libs')
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
@@ -90,6 +91,7 @@ TEMPLATE_CONTEXT_PROCESSORS = [
     "django.core.context_processors.i18n",
     "django.core.context_processors.media",
     "django.core.context_processors.request",
+    "django.core.context_processors.static",
     "django.contrib.messages.context_processors.messages",
 ]
 
@@ -102,6 +104,7 @@ INSTALLED_APPS = [
     "django.contrib.sites",
     "django.contrib.messages",
     "django.contrib.humanize",
+    "debug_toolbar",
      
     # project
 ]
