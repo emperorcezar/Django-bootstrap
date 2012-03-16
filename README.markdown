@@ -28,8 +28,9 @@ Your project should be in `my_project/my_project`
 
 Now you can add your own origin.
 
-6. Edit local_settings.py.example and add admins, site_id, secret_key and whatever else you want not included in your repo.
+6. Copy local_settings.py.example to local_settings.py and add admins, site_id, secret_key and whatever else you want not included in your repo.
 
 7. Now edit settings/production.py to setup your production database and whatever else is unique to your production environment. Same for settings/development.py, but it's defaults should be suitable for most local development.
 
-8. 
+8. Same with settings/development.py.
+
