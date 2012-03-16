@@ -18,9 +18,10 @@ Installation
 
 Your project should be in `my_project/my_project`
 
-4. In the virtualenv directory create you static directory
+4. In the virtualenv directory create you static and media directories
 
 `mkdir static`
+`mkdir media`
 
 5. Go into the directory when you cloned Django-bootstrap and remove the remote
 
@@ -34,3 +35,13 @@ Now you can add your own origin.
 
 8. Same with settings/development.py.
 
+Development
+-----------
+
+Provided are `devmanage.py` and `devserver`. These are wrappers that will use settings.development as your settings file.
+settings.development uses sqlite and placed db/dev.db in the directory above your project (the same one that has `static` and `media` directories. So make sure that directory exists.
+
+Production
+----------
+
+Whatever you're using for production, it will need to use settings.production instead of settings.
